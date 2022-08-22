@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accesibilidad: Perceptible</title>
+</head>
+
+<body>
+    <header class='header sticky top-0 bg-blue-600 shadow-md'>
+        <div class='left flex items-center'>
+            <div class='logo_container w-14'>
+                <img src="https://www.juanmacivico87.com/wp-content/uploads/que-es-accesibilidad-web.png" alt="logo" />
+            </div>
+            <h1 class='text-xl ml-3 font-bold text-white'>Accesibilidad Web</h1>
+        </div>
+        <h1 class='text-xl ml-3 font-bold text-white'>Pauta: Perceptible</h1>
+    </header>
+
+    <main class="main">
+        <section class="">
+            <h1 class="">Alternativas de texto</h1>
+            <h3 class="">
+                Se proporcionan alternativas de texto para cualquier contenido que no sea de texto para que se pueda
+                cambiar a otras formas que las personas necesiten.
+                <br>
+                <br>
+                <p class="ejemplo">Por ejemplo, si usamos una imagen, una persona ciega o con visión reducida no la
+                    podrá ver, pero si añadimos un texto o descripción, se podrá utilizar herramientas de asistencia
+                    para que el texto pueda ser leído, cambiado a lenguaje braile, aumentar su tamaño de fuente, etc.
+                </p>
+            </h3>
+
+            <div class="ejercicio_container">
+                <div class="instrucciones_container">
+                    <h2>Instrucciones:</h2>
+                    <p>
+                        <span class="">1.</span>
+                        <span class="">Debajo hay una imagen con el siguiente código (línea 64 del archivo
+                            index.html):</span>
+                        <br>
+                        <code class="codigo">
+                            <p>
+                                &lt;figure&gt; 
+                                <br>
+                                &nbsp;
+                                &lt;img src="..." alt="..." /&gt;
+                                <br>
+                                &lt;/figure&gt;
+                            </p>                      
+                        </code>
+                    </p>
+
+                    <p>
+                        <span class="">2.</span>
+                        <span class="">Agrega una alternativa de texto a la imagen. <b>Pista:</b> Existe una etiqueta
+                            llamada <i>figcaption</i>.</span>
+                    </p>
+                </div>
+
+                <!-- Aquí está la imagen del ejercicio 1.-->
+                <div class="imagen_container">
+                    <figure>
+                        <img src="./imagen accesibilidad.jpg" width="500" alt="imagen sobre la accesibilidad">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <div class="linea"></div>
+
+        <section class="">
+            <h1 class="">Medios Basados en el tiempo</h1>
+            <ul class="">
+                <li>
+                    <h2 class="">Subtítulos (pregrabados)</h2>
+                </li>
+            </ul>
+            <h3 class="">
+                La intención de este Criterio de Conformidad es permitir que las
+                personas sordas o con dificultades auditivas vean presentaciones
+                multimedia sincronizadas.
+                <br>
+                <br>
+                <p class="ejemplo">Por ejemplo, se añaden subtítulos a un video, una descripción de audio a una
+                    película, se realiza una transcripción a un video o audio, etc.
+                </p>
+            </h3>
+        </section>
+
+        <div class="linea"></div>
+
+        <section class="">
+            <h1 class="">Adaptable</h1>
+            <ul class="">
+                <li>
+                    <h2 class="">Información y relaciones</h2>
+                </li>
+            </ul>
+            <h3 class="">
+                Se debe percibir una estructura y las relaciones a través de
+                varias señales visuales
+                <br>
+                <br>
+                <div class="ejemplo">
+                    Ejemplos:
+                    <ol>
+                        <li>Los encabezados suelen estar en una fuente más grande y en negrita</li>
+                        <li>Los párrafos están separados por una línea en blanco</li>
+                        <li>Las palabras que tienen un estatus especial se indican cambiando la familia de fuentes y/o
+                            poniéndolas en negrita, cursiva o subrayadas</li>
+                    </ol>
+                </div>
+            </h3>
+
+            <div class="ejercicio_container">
+                <div class="instrucciones_container">
+                    <h2>Instrucciones:</h2>
+                    <p>
+                        1. Coloca en negrita a la frase: "el grado de facilidad de uso que tiene una página web para los
+                        visitantes que entran e interactúan con ella."
+                    </p>
+
+                    <p>
+                        2. Coloca en cursiva la palabra: "usabilidad"
+                    </p>
+                    <p>
+                        3. Subraya la palabra: "intuitiva"
+                    </p>
+                </div>
+                <div class="frase_container">
+                    <h3 class="">
+                        La usabilidad web es
+
+                        el grado de facilidad de uso que tiene una página web para
+                        los visitantes que entran e interactúan con ella.
+
+                        Una web con una buena usabilidad es aquella que
+                        permite a los usuarios una interacción sencilla,
+                        intuitiva, agradable y segura.
+                    </h3>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="linea"></div>
+
+        <section class="">
+            <h1 class="">Distingible</h1>
+            <ul class="">
+                <li>
+                    <h2 class="">Contraste</h2>
+                </li>
+            </ul>
+            <h3 class="">
+                La intención de este Criterio de Conformidad es proporcionar suficiente contraste entre el texto y su
+                fondo para que pueda ser leído por personas con una visión moderadamente baja.
+            </h3>
+
+            <div class="ejercicio_container">
+                <div class="instrucciones_container">
+                    <h2>Instrucciones:</h2>
+                    <p>
+                        1. Ingresa a <a target="_blank" href="https://app.contrast-finder.org/">Contrast Finder</a> para
+                        encontrar colores con buen contraste.
+                    </p>
+
+                    <p>
+                        2. El color del fondo es rojo (#FF0000), el color actual del texto es amarillo (#FFFF00). Busca
+                        un color para el <b>texto</b> que tenga un contraste de mínimo 4.5.
+                    </p>
+
+                    <p>
+                        3. Ingresa a la hoja de estilos <b><i>style.css</i></b>, al final se encuentra la clase
+                        <b><i>color_del_texto</i></b>, en esta clase cambia el color del texto.
+                    </p>
+                </div>
+
+                <div class="container_contraste">
+                    <h3 class="color_del_texto">
+                        Hola, esto es un texto con un buen contraste
+                    </h3>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+</body>
+
+</html>

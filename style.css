@@ -1,0 +1,145 @@
+:root{
+    --main-color: rgb(37,99,235);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.8rem;
+    background-color: var(--main-color);
+    /* add bottom shadow */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left .logo_container{
+    width: 3.5rem;
+}
+
+.logo_container img{
+    width: 100%;
+}
+
+.header h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 0.8rem;
+}
+
+.main{
+    margin: 0 5%;
+    padding: 2rem 3.5rem;
+    background-color: rgb(241 245 249);
+}
+
+.main h1{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    color: var(--main-color);
+    margin-bottom: 1.5rem;
+}
+
+.main h2{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+}
+
+.main h3{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.main .ejemplo{
+    font-weight: 400;
+}
+
+.main ul, .main ol{
+    padding-left: 2rem;
+}
+
+li::marker{
+    color: var(--main-color);
+}
+
+.codigo{
+    background-color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.imagen_container{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_container figure{
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid var(--main-color);
+}
+
+
+.linea{
+    height: 1px;
+    background-color: var(--main-color);
+    margin: 0.75rem;
+}
+
+.main p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.frase_container{
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid var(--main-color);
+    border-radius: 15px;
+}
+
+.frase_container > h3{
+    margin-bottom: 0;
+}
+
+.container_contraste > h3{
+    margin-bottom: 0;
+}
+
+.main .container_contraste{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #FF0000;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* Edita aquí el color del texto */
+.color_del_texto{
+    color: #FFFF00;
+}
